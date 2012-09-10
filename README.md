@@ -6,13 +6,17 @@ This is a simple set of classes for using the scalable buttons by [Nathan Barry]
 
 ## Usage
 
-Add the code and images in the folder 'iOSButtons' to your project. Add a UIButton to your xib file and set the custom class to your required color:
+Add the code and images in the folder 'iOSButtons' to your project (by either copying or adding a submodule). Add a UIButton to your xib file and set the custom class to your required color:
 
 ![Custom Class](http://f.cl.ly/items/1q2n303Y3g3u0p3n0F37/Screen%20Shot%202012-09-10%20at%209.01.25%20PM.png)
 
 Setting the font size and type is up to you.
 
 For more details please see the example project.
+
+## Requirements
+
+This code requires ARC and iOS5+.
 
 ## Questions
 
