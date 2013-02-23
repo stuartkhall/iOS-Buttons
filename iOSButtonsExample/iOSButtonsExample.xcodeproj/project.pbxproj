@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC82F97016D8B845000B7ADA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC82F96F16D8B845000B7ADA /* Default-568h@2x.png */; };
 		E0460E3E15FE0F72009257F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0460E3D15FE0F72009257F3 /* UIKit.framework */; };
 		E0460E4015FE0F72009257F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0460E3F15FE0F72009257F3 /* Foundation.framework */; };
 		E0460E4215FE0F72009257F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0460E4115FE0F72009257F3 /* CoreGraphics.framework */; };
@@ -55,6 +56,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC82F96F16D8B845000B7ADA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E0460E3915FE0F72009257F3 /* iOSButtonsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSButtonsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0460E3D15FE0F72009257F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0460E3F15FE0F72009257F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -162,6 +164,7 @@
 		E0460E4315FE0F72009257F3 /* iOSButtonsExample */ = {
 			isa = PBXGroup;
 			children = (
+				BC82F96F16D8B845000B7ADA /* Default-568h@2x.png */,
 				E0460E4C15FE0F72009257F3 /* AppDelegate.h */,
 				E0460E4D15FE0F72009257F3 /* AppDelegate.m */,
 				E0460E4F15FE0F72009257F3 /* ViewController.h */,
@@ -278,7 +281,7 @@
 		E0460E3015FE0F72009257F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Stuart Hall";
 			};
 			buildConfigurationList = E0460E3315FE0F72009257F3 /* Build configuration list for PBXProject "iOSButtonsExample" */;
@@ -334,6 +337,7 @@
 				E0460E9415FE0FBB009257F3 /* whiteButton@2x.png in Resources */,
 				E0460E9515FE0FBB009257F3 /* whiteButtonHighlight.png in Resources */,
 				E0460E9615FE0FBB009257F3 /* whiteButtonHighlight@2x.png in Resources */,
+				BC82F97016D8B845000B7ADA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +391,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -414,6 +421,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -470,6 +480,7 @@
 				E0460E5915FE0F72009257F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

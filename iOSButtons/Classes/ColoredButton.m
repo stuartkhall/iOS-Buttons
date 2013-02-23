@@ -39,6 +39,7 @@
     UIImage *buttonImageHighlight = [[UIImage imageNamed:buttonImageHighlightText] resizableImageWithCapInsets:UIEdgeInsetsMake(18, 18, 18, 18)];
     [self setBackgroundImage:buttonImage forState:UIControlStateNormal];
     [self setBackgroundImage:buttonImageHighlight forState:UIControlStateHighlighted];
+    [self setBackgroundImage:buttonImageHighlight forState:UIControlStateDisabled];
     
     // Text color
     [self setTitleColor:[self defaultTextColor] forState:UIControlStateNormal];
