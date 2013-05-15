@@ -30,7 +30,6 @@
 		E0460E8515FE0FBB009257F3 /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0460E6815FE0FBB009257F3 /* greenButtonHighlight@2x.png */; };
 		E0460E8615FE0FBB009257F3 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E0460E6915FE0FBB009257F3 /* greyButton.png */; };
 		E0460E8715FE0FBB009257F3 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0460E6A15FE0FBB009257F3 /* greyButton@2x.png */; };
-		E0460E8815FE0FBB009257F3 /* greyButton@2xpng in Resources */ = {isa = PBXBuildFile; fileRef = E0460E6B15FE0FBB009257F3 /* greyButton@2xpng */; };
 		E0460E8915FE0FBB009257F3 /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = E0460E6C15FE0FBB009257F3 /* greyButtonHighlight.png */; };
 		E0460E8A15FE0FBB009257F3 /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0460E6D15FE0FBB009257F3 /* greyButtonHighlight@2x.png */; };
 		E0460E8B15FE0FBB009257F3 /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E0460E6E15FE0FBB009257F3 /* orangeButton.png */; };
@@ -84,7 +83,6 @@
 		E0460E6815FE0FBB009257F3 /* greenButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonHighlight@2x.png"; sourceTree = "<group>"; };
 		E0460E6915FE0FBB009257F3 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
 		E0460E6A15FE0FBB009257F3 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
-		E0460E6B15FE0FBB009257F3 /* greyButton@2xpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "greyButton@2xpng"; sourceTree = "<group>"; };
 		E0460E6C15FE0FBB009257F3 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
 		E0460E6D15FE0FBB009257F3 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
 		E0460E6E15FE0FBB009257F3 /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
@@ -236,7 +234,6 @@
 				E0460E6815FE0FBB009257F3 /* greenButtonHighlight@2x.png */,
 				E0460E6915FE0FBB009257F3 /* greyButton.png */,
 				E0460E6A15FE0FBB009257F3 /* greyButton@2x.png */,
-				E0460E6B15FE0FBB009257F3 /* greyButton@2xpng */,
 				E0460E6C15FE0FBB009257F3 /* greyButtonHighlight.png */,
 				E0460E6D15FE0FBB009257F3 /* greyButtonHighlight@2x.png */,
 				E0460E6E15FE0FBB009257F3 /* orangeButton.png */,
@@ -322,7 +319,6 @@
 				E0460E8515FE0FBB009257F3 /* greenButtonHighlight@2x.png in Resources */,
 				E0460E8615FE0FBB009257F3 /* greyButton.png in Resources */,
 				E0460E8715FE0FBB009257F3 /* greyButton@2x.png in Resources */,
-				E0460E8815FE0FBB009257F3 /* greyButton@2xpng in Resources */,
 				E0460E8915FE0FBB009257F3 /* greyButtonHighlight.png in Resources */,
 				E0460E8A15FE0FBB009257F3 /* greyButtonHighlight@2x.png in Resources */,
 				E0460E8B15FE0FBB009257F3 /* orangeButton.png in Resources */,
